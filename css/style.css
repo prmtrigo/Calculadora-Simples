@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.landscape{
+    padding-top: 3rem;
+    background-image: url(http://bit.ly/2gPLxZ4);
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    -webkit-font-smoothing: antialiased; 
+    background-size: cover;
+}
+
+.calculator{
+    position: absolute;
+    background-color: rgba(136, 117, 117, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.button{
+    width: 2em;
+    height: 2em;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgba(46, 44, 44, 0.8);
+    border: none;
+    border-radius: 0.7em;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: rgba(177, 157, 157, 0.8);
+}
+
+.C{
+    background-color: rgba(194, 26, 26, 0.8);
+}
+
+.C:hover{
+    background-color: rgba(228, 62, 62, 0.8);
+}
+
+.number{
+    background-color: rgba(27, 21, 21, 0.8);
+}
+
+.number:hover{
+    background-color: rgba(121, 113, 113, 0.8)
+}
+
+#display{
+    background-color: rgba(53, 45, 45, 0.8);
+    width: 11rem;
+    height: 2em;
+    margin: 1em;
+    padding: 1em 1em 0;
+    text-align: right;
+    color: #fff;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+}
